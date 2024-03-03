@@ -1,0 +1,37 @@
+{
+  "name": "-laboratorio-taller-3",
+  "version": "1.0.0",
+  "description": "Proyecto Gestor de Empresas.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "ESModule"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalvarez-2022277/Laboratorio-3.git"
+  },
+  "author": "Diego Alvarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalvarez-2022277/Laboratorio-3/issues"
+  },
+  "homepage": "https://github.com/dalvarez-2022277/Laboratorio-3#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.3",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.0",
+    "morgan": "^1.10.0"
+  },
+  "type": "module"
+}
