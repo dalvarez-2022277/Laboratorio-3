@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Empresas",
+    "dateExported": "2024-03-04T04:28:19.474Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d966b695-859e-4940-897c-eacd75481ad0",
+            "colId": "e2b6a75b-46d2-4b28-8baa-790b6a127eff",
+            "containerId": "",
+            "name": "EmpesaPost",
+            "url": "http://localhost:3000/gestion-Empresas/v1/empresas",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T03:53:37.587Z",
+            "modified": "2024-03-04T04:19:21.892Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"nombreEmpresa\": \"zPrueba1\",\r\n  \"nivelImpacto\": \"Alto\",\r\n  \"añosExperiencia\": 1,\r\n  \"categoriaEmpresa\": \"Otro\"\r\n}\r\n\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "eb507e40-8322-44ee-8015-2c2eaa5ddf60",
+            "colId": "e2b6a75b-46d2-4b28-8baa-790b6a127eff",
+            "containerId": "",
+            "name": "EmpresaPut",
+            "url": "http://localhost:3000/gestion-Empresas/v1/empresas/65e54bbb62df8adef440eb49",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-04T03:53:37.589Z",
+            "modified": "2024-03-04T04:20:51.886Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameEnterprise\": \"jPrueba7\",\n  \"categoryEnterprise\": \"Otro\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "595fecd7-3b09-41e5-bd08-91ae5565f3a4",
+            "colId": "e2b6a75b-46d2-4b28-8baa-790b6a127eff",
+            "containerId": "",
+            "name": "EmpresasGet",
+            "url": "http://localhost:3000/gestion-Empresas/v1/empresas",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-04T03:53:37.590Z",
+            "modified": "2024-03-04T04:24:11.303Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "aa679a61-0bf4-4807-8e43-bde4ab5b99d0",
+            "colId": "e2b6a75b-46d2-4b28-8baa-790b6a127eff",
+            "containerId": "",
+            "name": "getReportExc",
+            "url": "http://localhost:3000/gestion-Empresas/v1/reportes",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-04T03:53:37.591Z",
+            "modified": "2024-03-04T04:24:45.919Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

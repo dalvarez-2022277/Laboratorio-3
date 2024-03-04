@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "65e54b4362df8adef440eb45"
+  },
+  "nombreEmpresa": "APrueba1",
+  "nivelImpacto": "Bajo",
+  "añosExperiencia": 1,
+  "categoriaEmpresa": "Manufactura",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e54bae62df8adef440eb47"
+  },
+  "nombreEmpresa": "BPrueba1",
+  "nivelImpacto": "Alto",
+  "añosExperiencia": 1,
+  "categoriaEmpresa": "Comercio",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e54bbb62df8adef440eb49"
+  },
+  "nombreEmpresa": "hPrueba1",
+  "nivelImpacto": "Medio",
+  "añosExperiencia": 1,
+  "categoriaEmpresa": "Comercio",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e54bcb62df8adef440eb4b"
+  },
+  "nombreEmpresa": "zPrueba1",
+  "nivelImpacto": "Alto",
+  "añosExperiencia": 1,
+  "categoriaEmpresa": "Otro",
+  "__v": 0
+}]
