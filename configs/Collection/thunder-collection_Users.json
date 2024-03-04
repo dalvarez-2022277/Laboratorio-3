@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Users",
+    "dateExported": "2024-03-04T02:41:22.332Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c81a5bec-ad79-41eb-8afa-8aafaa07b430",
+            "colId": "3ffe36f0-9994-4a17-bfcf-1c5bd071d23e",
+            "containerId": "",
+            "name": "UsersPost",
+            "url": "http://localhost:3000/gestion-Empresas/v1/usuarios",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T02:38:33.754Z",
+            "modified": "2024-03-04T02:40:59.986Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Diego\",\n  \"email\":\"dalvarez-2022277@gmail.com\",\n  \"password\":\"1234567\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
